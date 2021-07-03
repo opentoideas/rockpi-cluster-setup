@@ -3,7 +3,7 @@
 
 ### All commands executed with root priviledges 
 
-git clone https://github.com/dompazz/rockpi-cluster-setup.git
+git clone https://github.com/opentoideas/rockpi-cluster-setup.git
 cd rockpi-cluster-setup
 
 ### UPDATE environment.vals, mac.sh with appropriate values
