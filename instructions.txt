@@ -3,15 +3,15 @@
 
 ### All commands executed with root priviledges 
 
-sudo git clone https://github.com/opentoideas/rockpi-cluster-setup.git
+git clone https://github.com/opentoideas/rockpi-cluster-setup.git
 cd rockpi-cluster-setup
 
 ### UPDATE environment.vals, mac.sh with appropriate values
 
-sudo ./first.sh
+./first.sh
 
 #Setup Mining:
-sudo ./setup_miner.sh
+./setup_miner.sh
 
 armbian-config -> set hostname
 		-> set avalability ??
@@ -24,8 +24,8 @@ armbian-config -> set hostname
 
 #Finally run to setup Verus as a service and kick it off.  
 
-sudo chmod 700 last.sh
-sudo ./last.sh
+chmod 700 last.sh
+./last.sh
 
 #Once sure it is running, reboot and check again that service is kicked off at boot
 `reboot` or `shutdown now` (followed by power button to turn it back on)
