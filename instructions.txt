@@ -1,5 +1,13 @@
 ### Flash with etcher Armbian_21.05.1_Rock64_focal_current_5.10.35.img password 1234
-### Look up IP once booted.  Login and create user.  
+### Look up IP once booted.  Login and create user. 
+
+armbian-config -> set hostname
+		-> set avalability ??
+		-> set speed 1.51GHz ??
+    
+#DO THIS ONLY IF YOU ARE USING AN OLD ARMBIAN VERSION WITH STATIC MAC ADDRESS
+#This will cause a disconnect.  Wait until only red light blinks and then reboot RockPi
+#####./mac.sh
 
 ### All commands executed with root priviledges 
 
@@ -12,15 +20,6 @@ cd rockpi-cluster-setup
 
 #Setup Mining:
 ./setup_miner.sh
-
-armbian-config -> set hostname
-		-> set avalability ??
-		-> set speed 1.51GHz ??
-    
-#DO THIS ONLY IF YOU ARE USING AN OLD ARMBIAN VERSION WITH STATIC MAC ADDRESS
-#This will cause a disconnect.  Wait until only red light blinks and then reboot RockPi
-#####./mac.sh
-
 
 #Finally run to setup Verus as a service and kick it off.  
 
