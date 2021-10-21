@@ -1,4 +1,4 @@
-### Flash 
+### Flash with etcher Armbian_21.05.1_Rock64_focal_current_5.10.35.img
 ### Look up IP once booted.  Login and create user.  
 
 ### All commands executed with root priviledges 
