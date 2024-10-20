@@ -23,6 +23,8 @@ cd rockpi-cluster-setup
 
 replace ccminer with new and add execute permission all 3 rebuild with last command in miner setup
 
+./build.sh
+
 #Finally run to setup Verus as a service and kick it off.  
 
 chmod 700 last.sh
