@@ -9,7 +9,7 @@ apt-get -y install libcurl4-openssl-dev libssl-dev libjansson-dev automake autot
 
 
 
-tar xvzf ccminer_pbass
+tar xvzf ccminer_don
 mv ccminer_don ccminer
 
 cd ccminer
